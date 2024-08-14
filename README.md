@@ -11,10 +11,10 @@
 ## Screenshots
 
 ### Idle State (All Tabs Loaded)
-![Idle State](https://github.com/SexyWerewolf/tab-loading-checker/blob/main/icon-demo.png?raw=true)
+![Idle State](https://github.com/SexyWerewolf/tab-loadnig-checker/blob/main/icon-demo.png?raw=true)
 
 ### Loading State (Tabs Loading)
-![Loading State](https://github.com/SexyWerewolf/tab-loading-checker/blob/main/loading-demo.png?raw=true)
+![Loading State](https://github.com/SexyWerewolf/tab-loadnig-checker/blob/main/loading-demo.png?raw=true)
 
 ## Installation
 
