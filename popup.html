@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 220px;
+      padding: 10px;
+      background-color: #ffffff;
+      color: #000000;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    #darkModeToggle {
+      margin-bottom: 10px;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #007bff;
+      color: #ffffff;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #loadingTabsList {
+      margin-top: 10px;
+      list-style-type: none;
+      padding: 0;
+    }
+    #loadingTabsList li {
+      margin: 8px 0;
+      padding: 5px;
+      background-color: #f1f1f1;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    #loadingTabsList li:hover {
+      background-color: #e0e0e0;
+    }
+    #loadingTabsCount {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .dark-mode {
+      background-color: #1e1e1e;
+      color: #f1f1f1;
+    }
+    .dark-mode #darkModeToggle {
+      background-color: #333333;
+      color: #f1f1f1;
+    }
+    .dark-mode #loadingTabsList li {
+      background-color: #333333;
+    }
+    .dark-mode #loadingTabsList li:hover {
+      background-color: #444444;
+    }
+  </style>
+</head>
+<body>
+  <button id="darkModeToggle">Dark Mode</button>
+  <div>
+    <span id="loadingTabsCount">Loading tabs: 0</span>
+  </div>
+  <ul id="loadingTabsList"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
