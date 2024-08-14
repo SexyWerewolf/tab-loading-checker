@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Loading Checker",
+  "version": "1.0",
+  "description": "Check if there are tabs still loading.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "64": "icon.png"
+    },
+    "default_title": "Tab Loading Checker"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}
